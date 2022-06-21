@@ -27,3 +27,34 @@ main p {
   font-family: "Roboto", sans-serif;
   margin-top: 0;
 }
+.group1 {
+  display: flex;
+  flex-direction: column; /* or column */
+}
+.item1 {
+  flex: 3;
+  margin: 10px;
+}
+.image {
+  width: 100%;
+}
+.group3 {
+  display: flex;
+  flex-direction: row; /* or column */
+  background-color: #5c4f41;
+}
+.item3{
+  flex: 3;
+  margin: 20px;
+  width: 25%;
+}
+.item3image {
+  width: 100%;
+}
+.innergroup{
+  display: flex;
+  flex-direction: row;
+}
+section{
+  margin: 20px;
+}
